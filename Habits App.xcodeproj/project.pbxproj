@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		533C883E2CEE72E0009B2CAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 533C881F2CEE72DE009B2CAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 533C88262CEE72DE009B2CAD;
+			remoteInfo = "Habits App";
+		};
+		533C88482CEE72E0009B2CAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 533C881F2CEE72DE009B2CAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 533C88262CEE72DE009B2CAD;
+			remoteInfo = "Habits App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		533C88272CEE72DE009B2CAD /* Habits App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Habits App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		533C883D2CEE72E0009B2CAD /* Habits AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Habits AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		533C88472CEE72E0009B2CAD /* Habits AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Habits AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		533C884F2CEE72E0009B2CAD /* Exceptions for "Habits App" folder in "Habits App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 533C88262CEE72DE009B2CAD /* Habits App */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		533C88292CEE72DE009B2CAD /* Habits App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				533C884F2CEE72E0009B2CAD /* Exceptions for "Habits App" folder in "Habits App" target */,
+			);
+			path = "Habits App";
+			sourceTree = "<group>";
+		};
+		533C88402CEE72E0009B2CAD /* Habits AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Habits AppTests";
+			sourceTree = "<group>";
+		};
+		533C884A2CEE72E0009B2CAD /* Habits AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Habits AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		533C88242CEE72DE009B2CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533C883A2CEE72E0009B2CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533C88442CEE72E0009B2CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		533C881E2CEE72DE009B2CAD = {
+			isa = PBXGroup;
+			children = (
+				533C88292CEE72DE009B2CAD /* Habits App */,
+				533C88402CEE72E0009B2CAD /* Habits AppTests */,
+				533C884A2CEE72E0009B2CAD /* Habits AppUITests */,
+				533C88282CEE72DE009B2CAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		533C88282CEE72DE009B2CAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				533C88272CEE72DE009B2CAD /* Habits App.app */,
+				533C883D2CEE72E0009B2CAD /* Habits AppTests.xctest */,
+				533C88472CEE72E0009B2CAD /* Habits AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		533C88262CEE72DE009B2CAD /* Habits App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 533C88502CEE72E0009B2CAD /* Build configuration list for PBXNativeTarget "Habits App" */;
+			buildPhases = (
+				533C88232CEE72DE009B2CAD /* Sources */,
+				533C88242CEE72DE009B2CAD /* Frameworks */,
+				533C88252CEE72DE009B2CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				533C88292CEE72DE009B2CAD /* Habits App */,
+			);
+			name = "Habits App";
+			packageProductDependencies = (
+			);
+			productName = "Habits App";
+			productReference = 533C88272CEE72DE009B2CAD /* Habits App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		533C883C2CEE72E0009B2CAD /* Habits AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 533C88552CEE72E0009B2CAD /* Build configuration list for PBXNativeTarget "Habits AppTests" */;
+			buildPhases = (
+				533C88392CEE72E0009B2CAD /* Sources */,
+				533C883A2CEE72E0009B2CAD /* Frameworks */,
+				533C883B2CEE72E0009B2CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				533C883F2CEE72E0009B2CAD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				533C88402CEE72E0009B2CAD /* Habits AppTests */,
+			);
+			name = "Habits AppTests";
+			packageProductDependencies = (
+			);
+			productName = "Habits AppTests";
+			productReference = 533C883D2CEE72E0009B2CAD /* Habits AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		533C88462CEE72E0009B2CAD /* Habits AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 533C88582CEE72E0009B2CAD /* Build configuration list for PBXNativeTarget "Habits AppUITests" */;
+			buildPhases = (
+				533C88432CEE72E0009B2CAD /* Sources */,
+				533C88442CEE72E0009B2CAD /* Frameworks */,
+				533C88452CEE72E0009B2CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				533C88492CEE72E0009B2CAD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				533C884A2CEE72E0009B2CAD /* Habits AppUITests */,
+			);
+			name = "Habits AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "Habits AppUITests";
+			productReference = 533C88472CEE72E0009B2CAD /* Habits AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		533C881F2CEE72DE009B2CAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					533C88262CEE72DE009B2CAD = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					533C883C2CEE72E0009B2CAD = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 533C88262CEE72DE009B2CAD;
+					};
+					533C88462CEE72E0009B2CAD = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 533C88262CEE72DE009B2CAD;
+					};
+				};
+			};
+			buildConfigurationList = 533C88222CEE72DE009B2CAD /* Build configuration list for PBXProject "Habits App" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 533C881E2CEE72DE009B2CAD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 533C88282CEE72DE009B2CAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				533C88262CEE72DE009B2CAD /* Habits App */,
+				533C883C2CEE72E0009B2CAD /* Habits AppTests */,
+				533C88462CEE72E0009B2CAD /* Habits AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		533C88252CEE72DE009B2CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533C883B2CEE72E0009B2CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533C88452CEE72E0009B2CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		533C88232CEE72DE009B2CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533C88392CEE72E0009B2CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533C88432CEE72E0009B2CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		533C883F2CEE72E0009B2CAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 533C88262CEE72DE009B2CAD /* Habits App */;
+			targetProxy = 533C883E2CEE72E0009B2CAD /* PBXContainerItemProxy */;
+		};
+		533C88492CEE72E0009B2CAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 533C88262CEE72DE009B2CAD /* Habits App */;
+			targetProxy = 533C88482CEE72E0009B2CAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		533C88512CEE72E0009B2CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8TP4A8XK22;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Habits App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hello.Habits-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		533C88522CEE72E0009B2CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8TP4A8XK22;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Habits App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hello.Habits-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		533C88532CEE72E0009B2CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		533C88542CEE72E0009B2CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		533C88562CEE72E0009B2CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8TP4A8XK22;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hello.Habits-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Habits App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Habits App";
+			};
+			name = Debug;
+		};
+		533C88572CEE72E0009B2CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8TP4A8XK22;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hello.Habits-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Habits App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Habits App";
+			};
+			name = Release;
+		};
+		533C88592CEE72E0009B2CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8TP4A8XK22;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hello.Habits-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Habits App";
+			};
+			name = Debug;
+		};
+		533C885A2CEE72E0009B2CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8TP4A8XK22;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hello.Habits-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Habits App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		533C88222CEE72DE009B2CAD /* Build configuration list for PBXProject "Habits App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533C88532CEE72E0009B2CAD /* Debug */,
+				533C88542CEE72E0009B2CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		533C88502CEE72E0009B2CAD /* Build configuration list for PBXNativeTarget "Habits App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533C88512CEE72E0009B2CAD /* Debug */,
+				533C88522CEE72E0009B2CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		533C88552CEE72E0009B2CAD /* Build configuration list for PBXNativeTarget "Habits AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533C88562CEE72E0009B2CAD /* Debug */,
+				533C88572CEE72E0009B2CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		533C88582CEE72E0009B2CAD /* Build configuration list for PBXNativeTarget "Habits AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533C88592CEE72E0009B2CAD /* Debug */,
+				533C885A2CEE72E0009B2CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 533C881F2CEE72DE009B2CAD /* Project object */;
+}
